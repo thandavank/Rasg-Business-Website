@@ -1,0 +1,509 @@
+/* mobile */
+@media(min-width :320px) and (max-width :767px){
+    .banner{
+        padding: 30px 0;
+    }
+    .banner-parent{
+        text-align: center;
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    .banner-child-one{
+        order: 1;
+        /* margin-bottom: 30px; */
+    }
+    .banner-child{
+        order: 2; 
+    }
+    .banner-child{
+        margin-top: 30px;
+    }
+    .banner-child-one img{
+        width: 100%;
+    }
+    .banner-child H1{
+        font-size: 1.25rem;
+        line-height: 25px;
+        margin: 0 auto 10px;
+    }
+    .banner-child p{
+        font-size: 10px;
+        /* width: 160%; */
+        line-height: 15px;
+        margin:0 auto 20px;
+    } 
+    .banner-child a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+
+    /* HR Solution */
+    .hr-solution{
+        padding: 30px 0;
+    }
+    .four-hr-solution{
+        flex-basis: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .hr-solution h4{
+        font-size: 1.25rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .hr-solution-inner{
+        height: 145px;
+        flex-basis: 25%;
+        background-color: #f1598c;
+        border-radius: 10px;
+        padding: 15px 0 15px 15px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* 3.Unbeatable Support */
+    .Unbeatable-Support{
+        padding: 30px 0;
+    }
+    .Unbeatable-Support-parent{
+        flex-basis: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Unbeatable-Support-child img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .Unbeatable-Support-child-one h4{
+        font-size: 1.25rem;
+        line-height: 25px;
+        width: 70%;
+        margin: 0 auto 10px;
+    }
+    .Unbeatable-Support-child-one p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        width: 73%;
+        margin:0 auto 20px;
+    }
+    .Unbeatable-Support-child-one {
+        margin: 0 auto;
+    }
+    .button-parent{
+       /* display: flex; */
+        margin: 0 auto;
+    }
+    .button-left a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        /* margin-bottom: 10px; */
+        display: inline-block;
+    }
+    .button-right a{
+        padding: 8px 25px;
+        font-size: 0.625rem;
+        color: orange;
+        border: 2px solid orange;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+
+    /* 4.10 Reason */
+    .Reason{
+        padding: 30px 0;
+    }
+    .Reason-parent{
+        flex-basis: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Reason-parent-child{
+        order: 1;
+        margin-bottom: 30px;
+    }
+    .Reason-parent-child-one{
+        order: 2;
+    }
+    .Reason-parent-child-one img{
+        width: 100%;
+    }
+    .Reason-parent-child h4{
+        font-size: 1.25rem;
+        line-height: 25px;
+        width: 70%;
+        margin:0 auto 10px;
+    }
+    .Reason-parent-child p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        width: 80%;
+        margin:0 auto 20px;
+    }
+    .Reason-parent-child h6{
+        font-size:  0.938rem;
+        position: relative;
+        padding-left: 40px;
+    }
+    .Reason-parent-child h6:before{
+        content: "";
+        background-image: url(../images/Rasg\ play\ button\ 2.png);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 102px;
+        top: -8px;
+        margin: 0 auto;
+    }
+
+
+    /* 5.We Support */
+    .we-support{
+        flex-basis: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .we-support-inner h4{
+        font-size: 1.25rem;
+        line-height: 25px;
+        width: 80%; 
+        margin-bottom: 10px;
+    }
+    .we-support-inner p{
+        font-size: 0.625rem;
+        line-height: 15px; 
+        width: 80%; 
+        margin-bottom: 20px;
+    }
+    .we-support img{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .we-support a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+       display: inline-block;
+    }
+
+
+    /* 6.Load */
+    .load{
+        padding: 30px 0;
+    }
+    .load-parent{
+       flex-basis: 100%;
+       flex-direction: column;
+       text-align: center;
+    }
+    .load-parent-child{
+        margin-bottom: 30px;
+    }
+    .load-parent-child h4{
+        font-size: 1.25rem;
+        line-height: 25px;
+        width: 90%;
+        margin:0 auto 10px;
+    }
+    .load-parent-child p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        margin:0 auto 20px;
+    }
+    .load-parent-child a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .load-parent-child-one img{
+        width: 100%;
+    }
+
+
+    /* 7.Helping Businesses */
+    .Helping-Businesses{
+        padding-top:30px;
+    }
+    .Helping-Businesses-inner h4{
+        font-size: 1.25rem;
+        line-height: 25px;
+        margin:0 0 10px 0;
+    }
+    .Helping-Businesses-inner p{
+        font-size: 0.625rem;
+        /* width: 48%; */
+        line-height: 15px;
+        margin: 0 auto 20px;
+    }
+    .Helping-Businesses-inner a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 0px;
+    }
+ 
+}
+
+
+
+/* tab */
+@media(min-width :768px) and (max-width :991px){
+    .banner{
+        padding: 30px 0;
+    }
+    .banner-parent{
+        flex-basis: 50%;
+        /* flex-direction: row; */
+    }
+    .banner-child-one img{
+        width: 100%;
+    }
+    .banner-child H1{
+        font-size: 1.5rem;
+        line-height: 30px;
+        /* margin: 60px 0 10px 0; */
+    }
+    .banner-child p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        margin-bottom: 20px;
+    } 
+    .banner-child a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    /* 2.HR Solution */
+    .hr-solution{
+        padding: 30px 0;
+    }
+    .four-hr-solution{
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .hr-solution h4{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .hr-solution-inner{
+        height: 145px;
+        flex-basis: 50%;
+        background-color: #f1598c;
+        border-radius: 10px;
+        padding: 15px 0 15px 15px;
+        margin-bottom: 20px;
+    }
+    
+
+     /* 3.Unbeatable Support */
+     .Unbeatable-Support{
+        padding: 30px 0;
+    }
+     .Unbeatable-Support-parent{
+        flex-basis: 50%;
+    }
+    .Unbeatable-Support-child img{
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+    .Unbeatable-Support-child-one{
+        margin: 0px 0 0 140px;
+    }
+    .Unbeatable-Support-child-one h4{
+        font-size: 1.5rem;
+        line-height: 30px;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .Unbeatable-Support-child-one p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        width: 90%; 
+        margin-bottom: 20px;
+    }
+    .button-parent{
+        flex-wrap: wrap;
+    }
+    .button-left a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .button-right a{
+        padding: 8px 25px;
+        font-size: 0.625rem;
+        color: orange;
+        border: 2px solid orange;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+
+    /* 4.10 Reason */
+    .Reason{
+        padding: 30px 0;
+    }
+    .Reason-parent{
+        flex-basis: 50%;
+    }
+    .Reason-parent-child-one img{
+        width: 100%;
+    }
+    .Reason-parent-child h4{
+        font-size: 1.5rem;
+        line-height: 30px;
+        width: 76%;
+        margin-bottom: 10px;
+    }
+    .Reason-parent-child p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        width: 76%;
+        margin-bottom: 20px;
+    }
+    .Reason-parent-child h6{
+        font-size: 0.938rem;
+        position: relative;
+        padding-left: 40px;
+    }
+    .Reason-parent-child h6:before{
+        content: "";
+        background-image: url(../images/Rasg\ play\ button\ 2.png);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: -8px;
+    }  
+
+
+    /* 5.We Support */
+    .we-support{
+        flex-basis: 50%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .we-support-inner h4{
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .we-support-inner p{
+        font-size: 0.625rem;
+        line-height: 15px;  
+        margin-bottom: 20px;
+    }
+    .we-support img{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .we-support a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+       display: inline-block;
+    }
+
+
+    /* 6.Load */
+    .load{
+        padding: 30px 0;
+    }
+    .load-parent{
+       flex-basis: 50%;
+    }
+    .load-parent-child h4{
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .load-parent-child p{
+        font-size: 0.625rem;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    .load-parent-child a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .load-parent-child {
+        margin-top:0px ;
+    }
+    .load-parent-child-one img{
+        width: 100%;
+    }
+
+
+      /* 7.Helping Businesses */
+      .Helping-Businesses{
+        padding-top:30px;
+    }
+    .Helping-Businesses-inner h4{
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin:0 0 10px 0;
+    }
+    .Helping-Businesses-inner p{
+        font-size: 0.625rem;
+        /* width: 48%; */
+        line-height: 15px;
+        margin: 0 auto 20px;
+    }
+    .Helping-Businesses-inner a{
+        padding: 10px 25px;
+        font-size: 0.625rem;
+        color: #fff;
+        background-color: #fb6524;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 0px;
+    }
+
+}
+
+/* desktop */
+@media(min-width :992px) and (max-width :1199px){
+    .banner-parent{
+        flex-basis: 25%;
+    }
+
+}
